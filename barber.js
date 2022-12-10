@@ -28,10 +28,19 @@ function processForm(){
     var file = document.getElementById('file').value;
     var style = document.getElementById('style').value;
     var stylist = document.getElementById('stylist').value;
+     var data = {
+        name,gender,email,number,date,time,file,style,stylist
+     }
+
+     localStorage.setItem("userdata", JSON.stringify(data) )
+
+    //  JSON.parse(localStorage.getItem('userdata')),
+
+     alert("thank you")
    
 
-    window.location.href = 'results.html?name=' + name + '&gender=' + value + '&email='
+   /* window.location.href = 'results.html?name=' + name + '&gender=' + value + '&email='
      + email + '&number=' + number + '&date=' + date + '&time=' + time + '&file=' + file 
-     + '&style=' + style + '&stylist=' + value  ;
+     + '&style=' + style + '&stylist=' + value  ;*/
 }
 
