@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url(BACKGROUNG2.jpg); 
+     background-repeat:no-repeat; 
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center; 
+     /* width: 100vh;  */
+    /* height: 10vh; */
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navitems{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color:black;
+    width: 100%;
+}
+.image{
+    height: 50vh;
+    width: 50vh;
+}
+.cuts{
+    display: table-row;
+    height: 30%;
+    width: 30%; 
+    padding: 10px;
+    /* display:flex; */
+    /* flex-direction: row;     */
+}
+.styles{
+    height:10%;
+    width: 10%;
+    padding: 10px;  
+     /* display:flex ;  */
+     /* flex-direction:row; */
+}
+
+.text{
+    color: white;
+}
+
+.btn{ 
+    margin-top: 1rem;
+    background-color: rgb(9, 79, 73);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+
+}
+
+.form{
+    background-color: orangered;
+    background-size: cover;
+     width: 205vh; 
+     height: 100vh;
+}
+
+.btn1{ 
+    margin-top: 1rem;
+    background-color: rgb(9, 79, 73);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+
+}
+
+.logo{
+    text-indent: -999999999px;
+    background: url("BELLO2.png"); 
+    background-repeat: no-repeat;
+    width: 258px;
+    height: 243px;
+}
+
+.padding{
+    padding: 2rem;
+}

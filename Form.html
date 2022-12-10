@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="barber style.css">
+</head>
+<body>
+    <div class="form">
+    <nav>
+        <ul class="navitems">
+            <li><a href="#"><i class="fa-solid fa-scissors"></i>
+            <li><a href="BARBING SALON.html">HOME</a></li>
+            <li><a href="STORE.html">STORE</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+    </nav>
+    <form action="results.html" class="myForm" escasti>
+        <center>
+        <label for="name">NAME</label>
+        <input type="text" placeholder="eg. Bilal Ahmad" name="name" id="name" required><br>
+        <input type="radio" name="gender" id="gender" value="male" required>
+        <label for="gender" >MALE</label><br>
+        <input type="radio" name="gender" id="gender" value="feMale" required>
+        <label for="gender">FEMALE</label><br>
+        <label for="email">E-MAIL</label>
+        <input type="email" placeholder="eg. bilalahmad@gmail.com" name="email" id="email"required><br>
+        <label for="number">PHONE NUMBER</label>
+        <input type="tel" placeholder=" eg. +2348081721743" name="number" id="number"required><br>
+        <label for="date">DATE</label>
+        <input type="date" placeholder="APPIONTMENT DATE"name="date" id="date" required><br>
+        <label for="time">TIME</label>
+        <input type="time" placeholder="APPIONTMENT TIME"name="time" id="time" min="8:00am" max="10:00pm" required><br>
+        <label for="style">STYLE</label>
+        <input type="text" placeholder="STYLE DISCRIBTION" name="style" id="style"required><br>
+        <label for="file">IMAGE</label>
+        <input type="file" placeholder="IMAGE OF STYLE" name="files" id="file"><br>
+        STYLIST<br>
+        <input type="radio" name="stylist" id="stylist" value="nura">
+        <label for="stylist" >NURA</label><br>
+        <input type="radio" name="stylist" id="stylist" value="hussaini">
+        <label for="stylist">HUSSAINI</label><br>
+        <input type="radio" name="stylist" id="stylist" value="favour">
+        <label for="stylist">FAVOUR</label><br>
+        <input type="radio" name="stylist" id="stylist" value="pablo">
+        <label for="stylist">PABLO</label><br>
+        <button type="submit" class="btn" onclick="processForm()">SUBMIT</button>
+        <button type="reset" class="btn">RESET</button>
+    
+        </center>
+    </form>
+    </div>
+    <script src="barber.js"></script>
+</body>
+</html>
